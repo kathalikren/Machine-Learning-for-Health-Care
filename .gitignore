@@ -4,3 +4,5 @@ __pycache__/
 .env
 data/          # add this if you have large data files
 *.csv          # or specific large file types you don't want tracked
+*.venv/
+*.hello.py
