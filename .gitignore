@@ -1,6 +1,17 @@
+# IDE / Editor
+.idea/
+.vscode/
+
+# Python
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
 .env
-data/          # add this if you have large data files
-*.csv          # or specific large file types you don't want tracked
+.venv/
+
+# OS
+.DS_Store
+
+# Data files
+data/
+*.csv
