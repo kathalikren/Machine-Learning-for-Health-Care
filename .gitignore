@@ -16,4 +16,3 @@ __pycache__/
 data/
 *.csv
 processed/
-lstm_autoencoder.pt
