@@ -17,3 +17,4 @@ data/
 *.csv
 processed/
 lstm_autoencoder.pt
+*.svg
