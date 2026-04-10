@@ -4,18 +4,6 @@ Intensive Care Time Series Modeling for Mortality Predictions on the Physionet 2
 
 ## Environment
 
-### On the ETH Student Cluster
-
-The data is already available on the cluster at `~/ml4h_data/p1/*`. No download needed.
-
-The cluster provides a pre-configured Python environment. Open a terminal in Jupyter and activate it:
-
-```bash
-conda activate ml4h
-```
-
-Then launch Jupyter and open the notebooks directly.
-
 ### Local Setup
 
 Python 3.12 is required. Install dependencies into a virtual environment:
@@ -25,15 +13,6 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-
-## Data
-
-The Physionet 2012 Challenge dataset is split into three sets:
-- **Set A** (`set-a/`) — training
-- **Set B** (`set-b/`) — validation (hyperparameter tuning)
-- **Set C** (`set-c/`) — test (final evaluation only)
-
-Raw outcome labels are in `Outcomes-{a,b,c}.txt`.
 
 ## How to Run
 
