@@ -44,10 +44,8 @@ Run the notebooks in order:
 | `exercise_1.ipynb` | Q1 | Data loading and preprocessing |
 | `exercise_2.ipynb` | Q2 | Supervised learning (LR, GBT, LSTM, Transformer) |
 | `exercise_3.ipynb` | Q3 | Representation learning (LSTM autoencoder, linear probes, label scarcity, visualisation) |
-| `Q4_1_ready.ipynb` | Q4.1 | Foundation models — part 1 |
-| `exercise_4_2_and_3_ready.ipynb` | Q4.2 & Q4.3 | Foundation models — parts 2 and 3 |
-
-> **Note:** Question 4 is **not** answered in `exercise_4.ipynb`. Use `Q4_1_ready.ipynb` for Q4.1 and `exercise_4_2_and_3_ready.ipynb` for Q4.2 and Q4.3.
+| `exercise_4.1.ipynb` | Q4.1 | Foundation models — part 1 |
+| `exercise_4.2_and_4.3.ipynb` | Q4.2 & Q4.3 | Foundation models — parts 2 and 3 |
 
 `exercise_1.ipynb` (Q1) must be run first as it generates the `processed/` parquet files that all subsequent notebooks depend on.
 
