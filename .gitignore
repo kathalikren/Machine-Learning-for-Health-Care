@@ -17,4 +17,5 @@ data/
 *.csv
 processed/
 lstm_autoencoder.pt
+lstm_contrastive.pt
 *.svg

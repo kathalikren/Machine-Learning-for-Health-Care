@@ -39,13 +39,17 @@ Raw outcome labels are in `Outcomes-{a,b,c}.txt`.
 
 Run the notebooks in order:
 
-| Notebook | Content |
-|---|---|
-| `exercise_2.ipynb` | Data preprocessing, supervised learning (LR, GBT, LSTM, Transformer) |
-| `exercise_3.ipynb` | Representation learning (LSTM autoencoder, linear probes, label scarcity, visualisation) |
-| `exercise_4.ipynb` | Foundation models (LLM prompting, LLM embeddings, Chronos) |
+| Notebook | Question | Content |
+|---|---|---|
+| `exercise_1.ipynb` | Q1 | Data loading and preprocessing |
+| `exercise_2.ipynb` | Q2 | Supervised learning (LR, GBT, LSTM, Transformer) |
+| `exercise_3.ipynb` | Q3 | Representation learning (LSTM autoencoder, linear probes, label scarcity, visualisation) |
+| `Q4_1_ready.ipynb` | Q4.1 | Foundation models — part 1 |
+| `exercise_4_2_and_3_ready.ipynb` | Q4.2 & Q4.3 | Foundation models — parts 2 and 3 |
 
-Preprocessing (Q1) must be run first as it generates the `processed/` parquet files that all subsequent notebooks depend on.
+> **Note:** Question 4 is **not** answered in `exercise_4.ipynb`. Use `Q4_1_ready.ipynb` for Q4.1 and `exercise_4_2_and_3_ready.ipynb` for Q4.2 and Q4.3.
+
+`exercise_1.ipynb` (Q1) must be run first as it generates the `processed/` parquet files that all subsequent notebooks depend on.
 
 ## Processed Data
 
@@ -59,3 +63,4 @@ The raw sets (`set_a.parquet`, `set_b.parquet`, `set_c.parquet`) contain the dat
 ## Saved Models
 
 - `lstm_autoencoder.pt` — pretrained LSTM autoencoder weights (saved after Q3.1 pretraining)
+- `lstm_contrastive.pt` — pretrained LSTM contrastive model weights (saved after Q3 contrastive pretraining)
